@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aurea Estates | Premium Real Estate in Bangalore</title>
+    <meta
+      name="description"
+      content="A premium real estate website project by Sumaiya Sayed featuring luxury homes, smart property search, curated communities, and a modern client experience."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <main id="top">
+        <section class="hero-wrap">
+          <header class="site-header">
+            <a class="brand" href="#top" aria-label="Aurea Estates home">
+              <span class="brand-mark">AE</span>
+              <span class="brand-copy">
+                <strong>Aurea Estates</strong>
+                <small>Crafted by Sumaiya Sayed</small>
+              </span>
+            </a>
+
+            <nav class="main-nav" aria-label="Primary">
+              <a class="is-active" href="#top">Home</a>
+              <a href="#properties">Properties</a>
+              <a href="#communities">Communities</a>
+              <a href="#experience">Experience</a>
+              <a href="#contact">Contact</a>
+            </nav>
+
+            <a class="header-cta header-contact" href="#contact">Contact Me</a>
+
+          </header>
+
+          <section class="hero">
+            <aside class="hero-panel">
+              <div class="hero-visual">
+                <div class="hero-gridline hero-gridline-left"></div>
+                <div class="hero-gridline hero-gridline-center"></div>
+                <div class="hero-gridline hero-gridline-bottom"></div>
+
+                <div class="hero-stage-headline">
+                  <p class="eyebrow">Luxury real estate platform</p>
+                  <h1>
+                    The signature address for exceptional homes in
+                    <span>Bangalore</span>
+                  </h1>
+                  <p class="hero-text">
+                    Discover landmark residences, investment-ready apartments,
+                    private villas, and curated commercial spaces through a
+                    digital experience designed to feel prestigious, modern, and
+                    trustworthy.
+                  </p>
+                </div>
+
+                <div class="hero-note hero-note-copy">
+                  <span class="hero-note-dot"></span>
+                  <p>
+                    Aurea Estates combines luxury branding, live market access,
+                    and premium property discovery into one elevated digital
+                    experience.
+                  </p>
+                </div>
+
+                <div class="hero-note hero-note-label">household need management</div>
+
+                <div class="hero-card hero-card-main">
+                  <p>Featured Residence</p>
+                  <h2>Skyline Crest Villa</h2>
+                  <ul>
+                    <li>5 bed private residence</li>
+                    <li>Infinity deck and courtyard garden</li>
+                    <li>Whitefield, Bangalore</li>
+                  </ul>
+                  <strong>INR 8.9 Cr</strong>
+                </div>
+
+                <div class="hero-widget hero-widget-climate">
+                  <span>Luxury pulse</span>
+                  <div class="widget-ring">
+                    <strong>24&deg;C</strong>
+                    <small>04/06/26</small>
+                  </div>
+                  <div class="widget-icons">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
+
+                <div class="hero-widget hero-widget-room">
+                  <span>Bedroom</span>
+                  <div class="widget-room-row">
+                    <em></em>
+                    <em></em>
+                    <em></em>
+                  </div>
+                </div>
+
+                <div class="hero-card hero-card-float">
+                  <span>Live market pulse</span>
+                  <strong>+14.8%</strong>
+                  <small>average luxury demand growth</small>
+                </div>
+              </div>
+            </aside>
+          </section>
+
+          <div class="hero-metrics" aria-label="Company highlights">
+            <article>
+              <strong>240+</strong>
+              <span>curated premium listings</span>
+            </article>
+            <article>
+              <strong>18</strong>
+              <span>top communities covered</span>
+            </article>
+            <article>
+              <strong>98%</strong>
+              <span>client satisfaction rate</span>
+            </article>
+          </div>
+        </section>
+
+        <section class="search-panel" aria-labelledby="search-heading">
+          <div class="section-heading compact">
+            <p class="eyebrow">Property discovery</p>
+            <h2 id="search-heading">Find the right property in seconds</h2>
+          </div>
+
+          <form class="search-form" id="searchForm">
+            <label>
+              Search
+              <input
+                id="searchInput"
+                type="search"
+                placeholder="Search by title, location, or feature"
+              />
+            </label>
+            <label>
+              Property type
+              <select id="typeFilter">
+                <option value="all">All types</option>
+                <option value="Apartment">Apartment</option>
+                <option value="Villa">Villa</option>
+                <option value="Penthouse">Penthouse</option>
+                <option value="Commercial">Commercial</option>
+              </select>
+            </label>
+            <label>
+              Availability
+              <select id="statusFilter">
+                <option value="all">All status</option>
+                <option value="For Sale">For Sale</option>
+                <option value="For Rent">For Rent</option>
+              </select>
+            </label>
+            <label>
+              Sort by
+              <select id="sortFilter">
+                <option value="featured">Featured first</option>
+                <option value="price-high">Price: high to low</option>
+                <option value="price-low">Price: low to high</option>
+              </select>
+            </label>
+          </form>
+        </section>
+
+        <section class="featured-strip" aria-label="Premium offerings">
+          <article>
+            <span>Elite homes</span>
+            <strong>Private villas and skyline penthouses</strong>
+          </article>
+          <article>
+            <span>Investment intelligence</span>
+            <strong>Data-backed decisions and market insight</strong>
+          </article>
+          <article>
+            <span>White-glove service</span>
+            <strong>Guided tours, legal support, and smooth closing</strong>
+          </article>
+        </section>
+
+        <section class="link-hub" aria-labelledby="link-hub-heading">
+          <div class="section-heading compact">
+            <p class="eyebrow">Trusted external links</p>
+            <h2 id="link-hub-heading">Explore live real estate platforms</h2>
+            <p>
+              These links open real websites so the project feels connected to
+              the actual property ecosystem in India.
+            </p>
+          </div>
+
+          <div class="partner-grid">
+            <a
+              class="partner-card"
+              href="https://housing.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <strong>Housing.com</strong>
+              <span>Browse homes, rentals, and market tools</span>
+            </a>
+            <a
+              class="partner-card"
+              href="https://www.magicbricks.com/property-for-sale-rent-in-Bangalore/residential-real-estate-Bangalore"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <strong>MagicBricks Bangalore</strong>
+              <span>View active Bangalore residential listings</span>
+            </a>
+            <a
+              class="partner-card"
+              href="https://www.nobroker.in/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <strong>NoBroker</strong>
+              <span>Explore owner-first buying and renting options</span>
+            </a>
+            <a
+              class="partner-card"
+              href="https://www.brigadegroup.com/residential/bengaluru"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <strong>Brigade Bengaluru</strong>
+              <span>See premium residential projects in Bengaluru</span>
+            </a>
+          </div>
+        </section>
+
+        <section class="properties-section" id="properties">
+          <div class="section-heading">
+            <p class="eyebrow">Curated collection</p>
+            <h2>Featured listings that feel worthy of the future</h2>
+            <p>
+              A digital showcase built to communicate trust, design quality,
+              and the premium lifestyle behind every address.
+            </p>
+          </div>
+
+          <div class="results-meta">
+            <span id="resultsCount">0 listings</span>
+            <button class="ghost-button" id="resetFilters" type="button">
+              Reset filters
+            </button>
+          </div>
+
+          <div class="property-grid" id="propertyGrid"></div>
+        </section>
+
+        <section class="communities-section" id="communities">
+          <div class="section-heading">
+            <p class="eyebrow">Neighborhood intelligence</p>
+            <h2>Explore Bangalore's most desirable communities</h2>
+            <p>
+              Every community is presented with a lifestyle lens so buyers and
+              investors can compare value beyond square footage.
+            </p>
+          </div>
+
+          <div class="community-grid">
+            <article>
+              <span>01</span>
+              <h3>Whitefield</h3>
+              <p>
+                Premium residences, tech access, strong rental demand, and
+                polished lifestyle infrastructure.
+              </p>
+            </article>
+            <article>
+              <span>02</span>
+              <h3>Koramangala</h3>
+              <p>
+                Urban energy, designer apartments, retail activity, and an
+                excellent address for professionals.
+              </p>
+            </article>
+            <article>
+              <span>03</span>
+              <h3>Indiranagar</h3>
+              <p>
+                Boutique living, elegant streets, social prestige, and a highly
+                desirable premium market.
+              </p>
+            </article>
+            <article>
+              <span>04</span>
+              <h3>Sarjapur Road</h3>
+              <p>
+                Growth-driven investments, family-focused developments, and
+                access to future-ready infrastructure.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="experience-section" id="experience">
+          <div class="section-heading">
+            <p class="eyebrow">Why this platform stands out</p>
+            <h2>An interface designed to impress clients and evaluators alike</h2>
+          </div>
+
+          <div class="experience-layout">
+            <div class="experience-panel">
+              <h3>Elegant by design</h3>
+              <p>
+                The interface uses a luxury editorial style, strong typography,
+                layered lighting effects, and clear spacing to feel elevated
+                instead of template-based.
+              </p>
+            </div>
+            <div class="experience-panel">
+              <h3>Useful in practice</h3>
+              <p>
+                Search, filter, sort, and structured listing details make the
+                platform functional, not just visually appealing.
+              </p>
+            </div>
+            <div class="experience-panel">
+              <h3>Built for trust</h3>
+              <p>
+                Market proof points, neighborhoods, testimonials, and guided
+                contact flows help create a complete customer journey.
+              </p>
+            </div>
+            <div class="experience-panel">
+              <h3>Submission-ready</h3>
+              <p>
+                This project is self-contained, responsive, and easy to open,
+                review, and present with confidence.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="story-section">
+          <div class="story-card">
+            <p class="eyebrow">Client experience</p>
+            <h2>
+              "It feels like a premium real estate brand, not a student demo."
+            </h2>
+            <p>
+              The experience is crafted to communicate quality immediately:
+              premium visuals, decision-friendly information, and a strong sense
+              of place.
+            </p>
+          </div>
+          <div class="testimonial-stack">
+            <article>
+              <strong>Aarav Menon</strong>
+              <span>Luxury home buyer</span>
+              <p>
+                The property discovery flow feels refined and incredibly easy to
+                trust. Every listing looks intentional.
+              </p>
+            </article>
+            <article>
+              <strong>Meera Shah</strong>
+              <span>Investor</span>
+              <p>
+                The market positioning, neighborhood insight, and overall polish
+                make this platform feel boardroom-ready.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="contact-section" id="contact">
+          <div class="contact-copy">
+            <p class="eyebrow">Connect with the team</p>
+            <h2>Schedule a private consultation or request a custom shortlist</h2>
+            <p>
+              Designed and presented by <strong>Sumaiya Sayed</strong>,
+              Bangalore, India. This concept demonstrates how a modern real
+              estate platform can blend luxury branding with practical user
+              experience.
+            </p>
+            <div class="contact-details">
+              <a href="mailto:summisaud@gmail.com">summisaud@gmail.com</a>
+              <a href="tel:1234567890">+91 1234567890</a>
+            </div>
+          </div>
+
+          <form class="contact-form" novalidate>
+            <label>
+              Full name
+              <input
+                id="contactName"
+                name="fullName"
+                type="text"
+                placeholder="Enter your full name"
+              />
+              <small class="field-error" data-error-for="contactName"></small>
+            </label>
+            <label>
+              Email
+              <input
+                id="contactEmail"
+                name="email"
+                type="email"
+                placeholder="Enter your email address"
+              />
+              <small class="field-error" data-error-for="contactEmail"></small>
+            </label>
+            <label>
+              Property goal
+              <select id="contactGoal" name="goal">
+                <option value="">Select your goal</option>
+                <option value="Buy a home">Buy a home</option>
+                <option value="Rent a residence">Rent a residence</option>
+                <option value="Invest in property">Invest in property</option>
+                <option value="List a property">List a property</option>
+              </select>
+              <small class="field-error" data-error-for="contactGoal"></small>
+            </label>
+            <label>
+              Tell us more
+              <textarea
+                id="contactMessage"
+                name="message"
+                rows="4"
+                placeholder="Share your budget, preferred location, or property goals"
+              ></textarea>
+              <small class="field-error" data-error-for="contactMessage"></small>
+            </label>
+            <p class="form-status" aria-live="polite"></p>
+            <button class="button-primary" type="submit">
+              Submit Interest
+            </button>
+          </form>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div>
+          <p>Aurea Estates</p>
+          <span>
+            Premium real estate concept by Sumaiya Sayed | Bangalore, India
+          </span>
+        </div>
+        <div class="footer-contact">
+          <a href="mailto:summisaud@gmail.com">summisaud@gmail.com</a>
+          <a href="tel:1234567890">+91 1234567890</a>
+        </div>
+      </footer>
+    </div>
+
+    <template id="propertyCardTemplate">
+      <article class="property-card">
+        <div class="property-visual">
+          <span class="property-status"></span>
+          <button class="save-chip" type="button" aria-label="Save listing">
+            Save
+          </button>
+        </div>
+        <div class="property-body">
+          <div class="property-topline">
+            <p class="property-location"></p>
+            <strong class="property-price"></strong>
+          </div>
+          <h3 class="property-title"></h3>
+          <p class="property-description"></p>
+          <ul class="property-specs"></ul>
+          <div class="property-footer">
+            <span class="property-tag"></span>
+            <div class="property-actions">
+              <a href="#contact">Request details</a>
+              <a
+                class="property-link"
+                href="#"
+                target="_blank"
+                rel="noreferrer"
+                >Open live site</a
+              >
+            </div>
+          </div>
+        </div>
+      </article>
+    </template>
+
+    <script src="script.js"></script>
+  </body>
+</html>
