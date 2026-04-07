@@ -152,8 +152,12 @@
               <select id="typeFilter">
                 <option value="all">All types</option>
                 <option value="Apartment">Apartment</option>
+                <option value="House">House</option>
                 <option value="Villa">Villa</option>
                 <option value="Penthouse">Penthouse</option>
+                <option value="Studio">Studio</option>
+                <option value="Duplex">Duplex</option>
+                <option value="Plot">Plot</option>
                 <option value="Commercial">Commercial</option>
               </select>
             </label>
@@ -163,6 +167,8 @@
                 <option value="all">All status</option>
                 <option value="For Sale">For Sale</option>
                 <option value="For Rent">For Rent</option>
+                <option value="New Launch">New Launch</option>
+                <option value="Ready to Move">Ready to Move</option>
               </select>
             </label>
             <label>
@@ -189,6 +195,35 @@
             <span>White-glove service</span>
             <strong>Guided tours, legal support, and smooth closing</strong>
           </article>
+        </section>
+
+        <section class="category-section" aria-labelledby="category-heading">
+          <div class="section-heading compact">
+            <p class="eyebrow">Browse by category</p>
+            <h2 id="category-heading">Find apartments, villas, houses, and investment plots</h2>
+            <p>
+              Start with the property type that matches your lifestyle, family
+              needs, or investment goal.
+            </p>
+          </div>
+          <div class="category-grid">
+            <article>
+              <strong>Apartments</strong>
+              <span>Move-in ready homes in prime city neighborhoods</span>
+            </article>
+            <article>
+              <strong>Independent Houses</strong>
+              <span>Private homes for families who want more space</span>
+            </article>
+            <article>
+              <strong>Luxury Villas</strong>
+              <span>Premium gated communities with resort-style living</span>
+            </article>
+            <article>
+              <strong>Plots & Investments</strong>
+              <span>Land parcels and growth-focused opportunities</span>
+            </article>
+          </div>
         </section>
 
         <section class="link-hub" aria-labelledby="link-hub-heading">
@@ -241,6 +276,30 @@
           </div>
         </section>
 
+        <section class="saved-section" id="savedPropertiesSection" aria-labelledby="saved-properties-heading">
+          <div class="saved-shell">
+            <div class="section-heading compact">
+              <p class="eyebrow">Saved collection</p>
+              <h2 id="saved-properties-heading">Saved properties users can revisit anytime</h2>
+              <p>
+                Saved listings stay available on this device, making it easy to compare
+                apartments, villas, houses, and plots before contacting the team.
+              </p>
+            </div>
+
+            <div class="saved-summary">
+              <span id="savedCount">0 saved properties</span>
+              <div class="saved-actions">
+                <button class="ghost-button" id="clearSavedProperties" type="button">
+                  Clear saved
+                </button>
+              </div>
+            </div>
+
+            <div class="saved-grid" id="savedPropertiesGrid"></div>
+          </div>
+        </section>
+
         <section class="properties-section" id="properties">
           <div class="section-heading">
             <p class="eyebrow">Curated collection</p>
@@ -259,6 +318,32 @@
           </div>
 
           <div class="property-grid" id="propertyGrid"></div>
+          <div class="listing-actions">
+            <button class="button-secondary" id="toggleListings" type="button">
+              Show more properties
+            </button>
+          </div>
+        </section>
+
+        <section class="trust-section" aria-labelledby="trust-heading">
+          <div class="section-heading compact">
+            <p class="eyebrow">Why buyers trust us</p>
+            <h2 id="trust-heading">A real-estate experience built around clarity and confidence</h2>
+          </div>
+          <div class="trust-grid">
+            <article>
+              <strong>Verified listings</strong>
+              <p>Every showcased property is presented with clear category, price, status, and location information.</p>
+            </article>
+            <article>
+              <strong>Easy comparison</strong>
+              <p>Search, filter, and sort listings so users can compare homes, apartments, villas, and plots quickly.</p>
+            </article>
+            <article>
+              <strong>Direct inquiry flow</strong>
+              <p>Users can move from browsing to contacting the team without confusion or extra steps.</p>
+            </article>
+          </div>
         </section>
 
         <section class="communities-section" id="communities">
